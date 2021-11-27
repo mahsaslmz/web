@@ -1,0 +1,84 @@
+html{
+    padding: 30px 20px 50px 20px;
+}
+
+body{
+    color: white;
+    background-image: url(image-m/m3.png);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#menu-g {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+#menu-g li{
+    font-size: 14px;
+    font-family: "Arial Black";
+    color: white;
+    float: left;
+    padding: 20px;
+    margin: 20px 10px 40px 40px;
+}
+
+#logoimg {
+    margin: 30px 300px 30px 90px;
+    padding-left: 0;
+    float: left;
+}
+
+nav ul li a{
+   
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+nav ul li a:hover{
+    transition: 1s;
+    color: cyan;
+}
+
+.clearfix ::after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#center {
+    
+    padding-left: 150px;
+    position: fixed
+}
+table{
+   padding: 50px 0 30px 320px;
+}
+
+td{
+     padding: 20px 50px 3px 20px;
+   
+}
+#endpage{
+    padding:0 0 0 1000px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.endp{
+    float: left;
+}
+#one , #two , #three{
+    padding-left: 4px;
+}
+
+#center td a{
+    color: white;
+    text-decoration: none;
+}
