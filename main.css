@@ -6,8 +6,10 @@
 /* font-family: 'Open Sans', sans-serif;
 */
 
+
 .bg{
-    background: radial-gradient(circle at center, #00a2ff ,#8cbcd8, #019de0 );    
+    background-image: url(image/Colored\ Universe\ Art\ Print\ by\ Romanian\ Guy.jpg);
+    /* background: radial-gradient(circle at center, #00a2ff3f ,#8cbcd8a9, #019de04b );     */
               /*#8cbcd8;    #E83F6F */
     width:100%;
     height: 670px;
@@ -15,8 +17,9 @@
     border-bottom:5px groove  rgba(55, 102, 146, 0.596);
 }
 .logo{
-    width: 5%;
-    margin: 20px 20px 15px 30px;
+    width: 6%;
+    height: auto;
+    margin: 20px 20px 20px 28px;
     border-radius: 50%;
     box-shadow: -5px 5px 5px gray;
 }
@@ -28,19 +31,31 @@
     margin: 40px 70px;
     width: 90%;
     height: 670px;
-
+    
 }
 .menu{
     font-size: 1.05rem;
     list-style: none;
     display: flex;
     margin: 20px;
-    margin-left: 25%;
+    margin-left: 22%;
     line-height: 60px;
     font-family: 'Open Sans', sans-serif;
 }
 .menu li{
     margin: 0 40px;
+    
+}
+.menu li a{
+    color: rgb(121, 121, 121);
+    border-radius: 2%;
+    padding: 3px;
+}
+.menu li a:hover{
+    color: rgb(20, 20, 20);
+    /* background-color:#ff910057 ; */
+    text-shadow: -0.75px -0.75px 4px  rgba(158, 50, 0, 0.795);
+    transition: all 0.3s;
 }
 .menu a{
     text-decoration: none;
@@ -55,25 +70,36 @@ header{
 }
 .f-section{
     width: 50%;
+    margin: 180px 30px 30px 170px;
 }
 .f-section h2{
-    margin: 120px 50px 30px 180px;
     font-family: 'Oswald', sans-serif;
+    color: #00314b;
 }
 .f-section p{
-    margin: 20px 50px 30px 180px;
+    
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: rgb(20, 20, 20);
     font-family:'Oswald', sans-serif;;
 }
+.span-more a{
+    color:  rgb(158, 50, 0);
+    text-decoration: none;
+    font-size: 1rem;
+}
+.span-more a:hover{
+    transition: all 0.25s ;
+    text-shadow: 0.5px 0.5px 2px   rgb(158, 50, 0);
+}
 .s-section{
     width: 50%;
-    margin: 50px 0 40px 240px;
+    margin: 50px 30px 40px 170px;
+    
 }
 .s-section img{
     width: 300px;
-    color: #413321;
+  
 }
 .social-section ul{
    list-style: none;
@@ -83,6 +109,89 @@ header{
     padding-bottom: 40px;
 }
 .social-section img{
-    background-color: #019de057;
-   
+    border-radius: 20%;
+}
+.social-section img:hover{
+    background-color: #00b3ff57;
+    transition: all 0.3s;
+}
+@media(max-width:1200px){
+    .main{
+      margin: 40px 60px;
+    }
+}
+@media ( max-width:990px ){
+    .logo{
+        height:7%;
+        width: 6%;
+        margin: 15px 15px 13px 20px;
+    }
+    .menu{
+        font-size: 0.9rem;
+        margin-left: 120px;
+        margin: 15px;
+    }
+    .main{
+        margin: 40px 50px;
+    }
+    .s-section{
+        margin: 60px 0 40px 100px;
+        
+    }
+    .f-section{
+        margin: 180px 20px 30px 140px;
+    }
+}
+@media ( max-width:768px ){
+    .logo{
+        height:6%;
+        width: 6%;
+    }
+    .main{
+        margin: 35px 40px;
+    }
+    .menu{
+        line-height: 40px;
+        font-size: 0.9rem;
+        margin-left: 70px;
+    }
+    .s-section img{
+        width: 200px;
+    }
+    .s-section{
+        margin: 30px 0 40px 100px;
+    }
+    .f-section{
+        font-size: 0.8rem;
+        margin: 80px 20px 30px 100px;
+    }
+    .social-section ul{
+        margin: 60px 30px 30px 30px;
+     }
+}
+@media(max-width:575px){
+    .logo{
+        height:30px;
+        width:30px;
+        margin: 7px 5px 5px 15px;
+    }
+    .main{
+        margin: 20px 41px;
+        width: 85%;
+    }
+    .menu{
+        margin-left:0;
+        font-size: 0.8rem;
+        margin: 5px;
+    }
+    .s-section{
+        display: none;
+    }
+    .f-section{
+        font-size: 0.8rem;
+        margin: 90px 30px 30px 80px;
+    }
+    .social-section ul{
+        margin: 60px 30px 30px 60px;
+     }
 }

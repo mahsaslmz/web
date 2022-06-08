@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.relative{
+    position: relative;
+    
+} 
+.relative img{
+    width: 1600px;
+    height:800px;
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 1600px;
+    height: 656px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
