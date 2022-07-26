@@ -8,13 +8,16 @@
 
 
 .bg{
-    background-image: url(image/Colored\ Universe\ Art\ Print\ by\ Romanian\ Guy.jpg);
+    background-image: url(../image/Guy.jpg);
+
     /* background: radial-gradient(circle at center, #00a2ff3f ,#8cbcd8a9, #019de04b );     */
               /*#8cbcd8;    #E83F6F */
     width:100%;
     height: 670px;
     position:fixed;
     border-bottom:5px groove  rgba(55, 102, 146, 0.596);
+    
+
 }
 .logo{
     width: 6%;
@@ -31,7 +34,8 @@
     margin: 40px 70px;
     width: 90%;
     height: 670px;
-    
+    align-items:center ;
+    justify-content: center;
 }
 .menu{
     font-size: 1.05rem;

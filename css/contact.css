@@ -9,14 +9,15 @@
 
 .bg{
    
-    /* background: radial-gradient( circle at center, #ff00ff 5% ,#0a29d4 10%,#740027 , #3101e0 5%,#000000 );     */
+    background-image: url(../image/95431.jpg);  
+    background-size: 105%;
               /*#8cbcd8;    #E83F6F */
-    background-image: url(../image/80-9929.png);
     width:100%;
-    /* height:675px; */
+    bottom: 0;
+    top: 0;
     position:fixed;
-    border-bottom:5px groove  rgba(55, 102, 146, 0.596);
     background-repeat: no-repeat;
+    
 }
 .logo{
     width: 6%;
@@ -27,7 +28,7 @@
 }
 
 .main{
-    background-color:#f7f7f9b0;  /* #F7F7F9*/
+    background-color:#000000c0;  /* #F7F7F9*/
     border-radius: 20px;
     box-shadow: -3px -3px 30px #362b1c ; /* rgb(29, 29, 29)*/
     margin: 85px 135px;
@@ -50,12 +51,12 @@
     
 }
 .menu li a{
-    color: rgb(121, 121, 121);
+    color: rgb(221, 221, 221);
     border-radius: 2%;
     padding: 3px;
 }
 .menu li a:hover{
-    color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
     /* background-color:#ff910057 ; */
     text-shadow: -0.75px -0.75px 4px  rgba(158, 50, 0, 0.795);
     transition: all 0.3s;
@@ -83,46 +84,37 @@ header{
     margin: 10px;
 }
 .f-section{
-    margin: 0 20px 30px 70px;
-    padding: 5px 30px 10px 30px;
-    
-}
-.f-section h3{
-    padding: 10px;
+    width: 35%;
+    margin: 40px 120px 30px 120px;
+    padding: 30px 20px;
+    border-right: 1px solid #dfd7cd;
+    color:#dfd7cd ;
+    line-height:2rem;
 }
 .s-section{
    
-    margin: 30px 50px 40px 0px;
-}
-.s-section img{
-    width:200px;
+    margin:50px;
     
 }
-.l-section img{
-    width:200px;
-    margin: 100px 0 40px 20px;
-}
-.social-section ul{
+
+.s-section ul{
    list-style: none;
-   margin: 120px 30px 30px 30px;
+  
 }
-.social-section li{
+
+.s-section li{
     padding-bottom: 40px;
+    color: white;
 }
-.social-section img{
-    border-radius: 20%;
+.s-section img{
+    border-radius: 30%;
+    
 }
-.social-section img:hover{
-    background-color: #00b3ff57;
+.s-section img:hover{
+    background-color: #7d80007c;
     transition: all 0.3s;
 }
-.txt{
-    border-bottom: 1px gray solid;
-    line-height: 2;
-}
-#farsitxt{
-    text-align: right;
-}
+
 @media(max-width:1200px){
     .main{
       margin: 40px 60px;
