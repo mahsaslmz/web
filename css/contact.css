@@ -99,16 +99,17 @@ header{
 
 .s-section ul{
    list-style: none;
-  
+   padding:0px  40px 0px 40px;
 }
 
 .s-section li{
     padding-bottom: 40px;
     color: white;
+
 }
 .s-section img{
     border-radius: 30%;
-    
+    width: 70%;
 }
 .s-section img:hover{
     background-color: #7d80007c;
